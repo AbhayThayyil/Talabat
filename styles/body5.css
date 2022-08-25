@@ -1,0 +1,49 @@
+.get-app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    text-align: center;
+}
+.discover-app{
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+.discover-1{
+    font-weight: 700;
+    font-size: 32px;
+    position: absolute;
+    left: 170px;
+    top: 0;
+    
+}
+.discover-2{
+    font-size: 16px;
+    line-height: 4;
+    position: absolute;
+    left: 170px;
+    top: 35px;
+   
+}
+.discover-stores-div{
+    margin-top: 125px;
+    margin-left: 155px;
+}
+.discover-stores{
+    width: 160px;
+    height: 45px;
+    margin-top: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    
+}
+.phone-pic{
+    margin-top: 60px;
+    
+}
+.phone-pic-dimensions{
+    width: 400px;
+    margin-right: 100px;
+    height: 340px;
+    
+}

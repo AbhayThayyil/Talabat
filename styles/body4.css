@@ -1,0 +1,76 @@
+.join-body4{
+    text-align: center;
+    margin-top: 140px; 
+}
+.join-us1{
+    font-weight: 700;
+    font-size: 32px;
+}
+.join-us2{
+    font-size: 16px;
+    line-height: 4;
+}
+.join-grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 140px;
+}
+.join-box1{
+    width: 1fr 1fr;
+    height: 210px;
+    margin-left: 195px;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border:solid 1px lightgray;
+    position: relative;
+}
+.join-box2{
+    width: 1fr 1fr;
+    height: 210px;
+    margin-left: 15px;
+    margin-right: 195px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border:solid 1px lightgray;
+    position: relative;
+}
+.image-partner,.image-career{
+    height: 210px;
+        width: 165px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+}
+.partner1,.career1{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    left: 195px;
+    top: 20px;
+}
+.partner2,.career2{
+    position: absolute;
+    font-size: 16px;
+    left: 180px;
+    top: 60px;
+    width: 244px;
+}
+.partner3,.career3{
+    position: absolute;
+    font-size: 16px;
+    left: 200px;
+    top: 140px;
+    color: white;
+    height: 44px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 90, 0);
+    cursor: pointer;
+}

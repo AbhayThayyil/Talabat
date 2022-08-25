@@ -1,0 +1,101 @@
+.options-body3{
+    
+    height: 510px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    position: relative;
+    
+    }
+    .options-box1,.options-box3{
+        
+        
+        width: 1fr 1fr;
+        height: 210px;
+        margin-left: 195px;
+        margin-right: 15px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border:solid 1px lightgray;
+        position: relative;
+        cursor: pointer;
+    }
+    .options-box2,.options-box4{
+        
+        
+
+        width: 1fr 1fr;
+        height: 210px;
+        margin-left: 15px;
+        margin-right: 195px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border:solid 1px lightgray;
+        position: relative;
+        cursor: pointer;
+
+    }
+    
+    .image-restaurant{
+        
+        height: 210px;
+        width: 150px;
+        object-fit: contain;
+        background-color: red;
+        object-position: top;
+        padding-left: 10px;
+        border-radius: 10px;
+        position: absolute;
+    }
+    .image-grocery{
+        
+        height: 210px;
+        width: 150px;
+        object-fit: contain;
+        background-color: rgb(244,170,51);
+        object-position: top;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    .image-flowers{
+        height: 210px;
+        width: 150px;
+        object-fit: contain;
+        background-color: rgb(233,60,130);
+        object-position: top;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    .image-pharmacy{
+        height: 210px;
+        width: 150px;
+        object-fit: contain;
+        background-color: rgb(61,118,237);
+        object-position: top;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+    .restaurant1,.grocery1,.flowers1,.pharmacy1{
+        position: absolute;
+        font-size: 24px;
+        font-weight: 700;
+        left: 195px;
+        top: 20px;
+    }
+    .restaurant2,.grocery2,.flowers2,.pharmacy2{
+        position: absolute;
+        font-size: 16px;
+        left: 195px;
+        top: 60px;
+        width: 244px;
+
+    }
+    .restaurant3,.grocery3,.flowers3,.pharmacy3{
+        position: absolute;
+        font-size: 16px;
+        left: 195px;
+        top: 165px;
+        color: rgb(255, 90, 0);
+    }
+    
